@@ -25,12 +25,13 @@ fname = input("enter the file name")
 num_words=0
 with open(fname,'r')as f:
     for line in f:
-        words=line.spilt()
+        words=line.split()
         num_words+=len(words)
 print('Number of words: ',num_words)        
 ```
 ### OUTPUT:
-![s2](https://github.com/ARCHANAT1305/command-line-arguments-to-count-word/assets/145975189/d143a23c-d431-4ca1-9efe-94bcd3de5a91)
+![command](https://github.com/ARCHANAT1305/command-line-arguments-to-count-word/assets/145975189/03251add-e5ad-4322-ab3d-d049b9cbeb65)
+
 
 
 
